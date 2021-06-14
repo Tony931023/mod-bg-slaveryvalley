@@ -3,18 +3,18 @@ DELETE FROM `acore_string` WHERE `entry` IN (1500,1501,1502,1503,3000,3001,3002,
 INSERT INTO `acore_string` (`entry`, `content_default`) VALUES
 (1500, 'La Batalla por el Valle de la Esclavitud comienza en 2 minutos.'),
 (1501, 'La Batalla por el Valle de la Esclavitud comienza en 1 minutos.'),
-(1502, 'La Batalla por el Valle de la Esclavitud comienza en 30 segundos. Prepárense!'),
+(1502, 'La Batalla por el Valle de la Esclavitud comienza en 30 segundos. Preparense!'),
 (1503, 'Que comience la Batalla por el Valle de la Esclavitud!'),
 (3000, 'La %s ha tomado el %s!'),
 (3001, 'La %s ha tomado el %s!'),
 (3002, '$n ha defendido el %s!'),
-(3003, '$n ha asaltado el %s! Si no se defiende, la controlarán en 1 minuto.!'),
+(3003, '$n ha asaltado el %s! Si no se defiende, la controlaran en 1 minuto.!'),
 (3004, 'Alianza '),
 (3005, 'Horda'),
 (3006, 'Mina'),
-(3007, 'Prisión'),
+(3007, 'Prision'),
 (3008, 'Restless Graveyard'),
-(3009, 'Los esclavos aparecerán en 1 minuto.'),
+(3009, 'Los esclavos apareceran en 1 minuto.'),
 (3010, 'Aparecieron los esclavos!');
 
 -- battleground_template
