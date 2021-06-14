@@ -1,10 +1,10 @@
 -- acore_string
 DELETE FROM `acore_string` WHERE `entry` IN (1500,1501,1502,1503,3000,3001,3002,3003,3004,3005,3006,3007,3008,3009,3010);
 INSERT INTO `acore_string` (`entry`, `content_default`) VALUES
-(1500, 'La batalla por el valle de la esclavitud comienza en 2 minutos.'),
-(1501, 'La batalla por el valle de la esclavitud comienza en 1 minutos.'),
-(1502, 'La batalla por el valle de la esclavitud comienza en 30 segundos. Prepárense!'),
-(1503, 'Que comience la batalla por Slavery Valley!'),
+(1500, 'La Batalla por el Valle de la Esclavitud comienza en 2 minutos.'),
+(1501, 'La Batalla por el Valle de la Esclavitud comienza en 1 minutos.'),
+(1502, 'La Batalla por el Valle de la Esclavitud comienza en 30 segundos. Prepárense!'),
+(1503, 'Que comience la Batalla por el Valle de la Esclavitud!'),
 (3000, 'La %s ha tomado el %s!'),
 (3001, 'La %s ha tomado el %s!'),
 (3002, '$n ha defendido el %s!'),
@@ -38,8 +38,8 @@ INSERT INTO `creature_equip_template` (`CreatureID`, `ID`, `ItemID1`, `ItemID2`,
 -- creature_text
 DELETE FROM `creature_text` WHERE `CreatureID` IN (130000, 130001);
 INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
-(130000, 0, 0, 'Tendré el placer de destriparte $N!', 12, 0, 100, 0, 0, 0, 0, 0, 'combat Say'),
-(130001, 0, 0, 'Tendré el placer de destriparte you $N!', 12, 0, 100, 0, 0, 0, 0, 0, 'combat Say');
+(130000, 0, 0, 'Tendre el placer de destriparte $N!', 12, 0, 100, 0, 0, 0, 0, 0, 'combat Say'),
+(130001, 0, 0, 'Tendre el placer de destriparte you $N!', 12, 0, 100, 0, 0, 0, 0, 0, 'combat Say');
 
 -- smart_scripts
 DELETE FROM `smart_scripts` WHERE entryorguid IN (130000,130001);
